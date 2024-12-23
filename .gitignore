@@ -1,32 +1,79 @@
-# Prerequisites
-*.d
+# ------------------------------------------------------------------------------
+# Python
+# ------------------------------------------------------------------------------
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
+# C extensions
 *.so
-*.dylib
-*.dll
 
-# Fortran module files
-*.mod
-*.smod
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
 
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Executables
-*.exe
-*.out
-*.app
+# Environments (virtualenv, venv, etc.)
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# VSCode settings folder
+.vscode/
+
+# PyCharm project settings
+.idea/
+
+# PyInstaller
+*.spec
+*.manifest
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS, Windows y Linux basura
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.temp
+*.tmp

@@ -3,6 +3,8 @@
 import sys
 import math
 import os
+import random
+import re
 
 sys.setrecursionlimit(10**7)
 DEBUG = os.environ.get("DEBUG") is not None

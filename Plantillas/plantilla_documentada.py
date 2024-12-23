@@ -7,6 +7,8 @@ con ejemplos de lectura de datos.
 import sys          # Para E/S rápida
 import math         # Para gcd, etc.
 import os           # Para leer variables de entorno, manejar archivos, etc.
+import random       # Para aleatoriedad 
+import re           # Para expresiones regulares
 
 # Ajuste del límite de recursión (útil si se usan recursiones profundas).
 sys.setrecursionlimit(10**7)

@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
-import sys
 import math
 import os
+import random
+import re
+import sys
 
 sys.setrecursionlimit(10**7)
 DEBUG = os.environ.get("DEBUG") is not None
